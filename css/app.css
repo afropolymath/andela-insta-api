@@ -1,0 +1,23 @@
+.container #popular, .container #near_you {
+	display: none;
+}
+.container {
+	width: 306px;
+	margin: 0 auto;
+}
+.post {
+	border: solid 1px #CCC;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+	width: 306px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+.post img {
+	border-radius: 4px 4px 0 0;
+}
+.post .caption {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 0.9em;
+	padding: 0.6em 0.9em;
+	font-weight: 200;
+}
